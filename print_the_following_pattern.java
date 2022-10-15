@@ -6,7 +6,7 @@ class simple
         Scanner sc=new Scanner(System.in);
         int n,i,j;
         n = sc.nextInt();
-        for(i=1;i<=n;i++)
+        for(i=n;i>=1;i--)
         {
             for(j=1;j<=i;j++)
             {
